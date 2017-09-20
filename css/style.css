@@ -1,86 +1,66 @@
 
-body {
-    background: #fff;
-    margin: 0;
-    padding: 0;
-}
-
-[class*="box"], .box-text {
-    display: block;
-    height: 1000px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
-}
-
-[class*="box"] {
-    height: 700px;s
-}
-[class*="box"] span {
-    position: fixex;
-}
-
-.box-head p {
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Carrois Gothic', sans-serif;
+.page-content {
+    text-transform: uppercase;
     color: #fff;
+    /* font-family: 'Pathway Gothic One', sans-serif; */
 }
 
-.box-text {
-    background-color: #fff;
+.header {
+    background-color: #3399ff;
+    border:2px solid #3465a4;
+    margin: 10px;
 }
 
-.box-text p {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.header-inner {
+    margin: 20px;
 }
 
-.box-text-2 {
-    background-color: #fff;
-}
-.head    {
-    width: 100%;
-    text-align: center;
-}
-
-
-.logo img {
-    padding-top: 9%;
-    display: block;
-    width: 20%;
+.header-inner img {
     margin-left: auto;
     margin-right: auto;
-/*    margin-top: 15%;*/
-    
+    display: block;
 }
 
-.textarea {
+.header-inner-text {
     text-align: center;
-    font-size: 30px;
-    font-family: 'Carrois Gothic', sans-serif;
-    color: #238DFF;
+    margin-bottom: 10px;
 }
 
-.box-head {
-
-    background-color: #238DFF;
+.slideshow-inner img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-.box-1 {
-    background-color: #238DFF;
+.contact {
+    width: 100%;
+    background-color: #3399ff;
+    border:2px solid #3465a4;
+    margin: 10px 10px 0 10px;
 }
 
-.box-2 {
-    background-color: #238DFF;
+.contact-inner {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-inner-reachability {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-inner-reachability table {
+    align-self: center;
+}
+
+.portfolio {
+    width: 100%;
+    background-color: #3399ff;
+    border:2px solid #3465a4;
+    margin: 10px 10px 0 10px;
+    padding: 10px;
+}
+
+.portfolio-inner {
+    text-align: center;
 }
