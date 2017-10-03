@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <title>JDL Elektronik</title>
     <!-- stylesheet -->
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
     <link rel="stylesheet" href="css/style.css">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="icon" href="image/favicon.ico" type="image/x-icon">
-    <!-- js -->
     
     </head>
 <body>
@@ -64,13 +64,59 @@
                     Portfolio:
                 </div>
                 <div class="portfolio-inner-list">
-                    Elektroinstallation<br />
-                    Kleinklimaanlagen<br />
-                    Sanitärpartner<br />
-                    Onlineshauraum<br />
+                    <a href="#einstall" class="open-popup-link"> Elektroinstallation</a><br />
+                    <div id="einstall" class="white-popup mfp-hide">
+                        <h2>Elektroinstallation</h2>
+                        <ul>
+                            <li>E-Befund und Dokumentationen</li>
+                            <li>klassische Installation 230/400V</li>
+                            <li>Störungsbehebung</li>
+                            <li>Beleuchtungstechnik</li>
+                            <li>SAT-Anlagen (Klein- und Großanlagen)</li>
+                            <li>Netzwerk/EDV-Verkabelung</li>
+                            <li>Sprechanlagen</li>
+                        </ul>                        
+                      </div>
+                    <a href="#klimanlage" class="open-popup-link">Kleinklimaanlagen</a><br />
+                    <div id=klimanlage class="white-popup mfp-hide">
+                        <ul>
+                            <li>Klimasplitgeräte</li>
+                            <ul>
+                                <li>Montage</li>
+                                <li>Inbetriebnahme</li>
+                                <li>Wartung</li>
+                                <li>Gaslecksuche</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    Photovoltaik<br />
+                    Videoüberwachung<br />
+                    Zutrittskontrolle<br />
+                    <a href="#energieopti" class="open-popup-link">Energieoptimierungen</a><br />
+                    <div id="energieopti" class="white-popup mfp-hide">
+                        <ul>
+                            <li>Wärmebildanalyse (Schaltschränke etc.)</li>
+                            <li>Vorangsteuerungen</li>
+                            <li>Eisreinigung von Schaltschränken</li>
+                            <li>Industriereinigung von Kälteanlagen</li>
+                        </ul>
+                    </div>
+                    <a href="#shauraum" class="open-popup-link">Onlineshauraum</a><br />
+                    <div id="shauraum" class="white-popup mfp-hide">
+                        <a target="_blank" href="https://www.schrack.at/" class="shauraum-button">schrack.at</a>
+                    </div>
+                    <a href="#sanitaer" class="open-popup-link">Sanitärpartner</a><br />
+                    <div id="sanitaer" class="white-popup mfp-hide">
+                        <a target="_blank" href="http://www.aqua-air.at/" class="sanitaer-button">aqua-air</a>
+                    </div>
+
                 </div>
            </div>
        </div>
+       <!-- js -->
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+       <script  src="js/button.js"></script>
    </div>
 </body>
 </html> 
