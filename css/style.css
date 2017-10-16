@@ -91,6 +91,17 @@ footer {
     margin: 20px auto;
   }
 
+.white-popup h2 {
+	text-align: center;
+}
+
+.white-popup img {
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
   .white-popup-agb {
     position: relative;
     background: #FFF;
@@ -100,6 +111,7 @@ footer {
     height: 800px;
     margin: 20px auto;
   }
+
 
   a {
       text-decoration: none;
@@ -112,7 +124,7 @@ footer {
   }
 
   ul {
-	list-style-type: none;
+	padding: 20px;
   }
 
   /* picture */
