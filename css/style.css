@@ -107,6 +107,14 @@ footer {
       color: #fff;
   }
 
+  a:hover {
+	  color: #3465a4;
+  }
+
+  ul {
+	list-style-type: none;
+  }
+
   /* picture */
 
 .photo-inner img{
