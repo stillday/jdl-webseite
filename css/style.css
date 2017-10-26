@@ -87,7 +87,7 @@ footer {
     background: #FFF;
     padding: 20px;
     width:auto;
-    max-width: 500px;
+    max-width: 80%;
     margin: 20px auto;
   }
 
@@ -107,7 +107,7 @@ footer {
     background: #FFF;
     padding: 20px;
     width: auto;
-    max-width: 80%;
+    max-width: 70%;
     height: 800px;
     margin: 20px auto;
   }
@@ -125,6 +125,10 @@ footer {
 
   ul {
 	padding: 20px;
+  }
+
+  ul:nth-child(2) {
+	  padding: 0 20px 0 20px;
   }
 
   /* picture */
