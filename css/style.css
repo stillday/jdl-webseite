@@ -143,6 +143,11 @@ footer {
 	  list-style-type: circle;
   }
 
+  .klima-list {
+	  display: inline-block;
+	  list-style: url(asset/120px-Punktor.svg.png)
+  }
+
   /* picture */
 
 .photo-inner img{
