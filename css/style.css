@@ -82,48 +82,22 @@ footer {
 }
 
 /* popup */
-.white-popup {
-    position: relative;
-    background: #FFF;
-    padding: 20px;
-    width:auto;
-    max-width: 80%;
-    margin: 20px auto;
-  }
 
-.white-popup ul {
-	list-style-type: none;
-	text-align: center;
+.lightbox{
+	display: none;
+}
+.featherlight .featherlight-content {
+		color: white;
+		background-color: 	#3399ff;
+		border:2px solid #3465a4;
+	}
+
+.featherlight .featherlight-close-icon {
+	background: transparent;
+	font-size: 25px;
 }
 
-
-
-.white-popup li {
-	padding-bottom: 4px;
-}
-
-.white-popup h2 {
-	text-align: center;
-}
-
-.white-popup img {
-	max-width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-  .white-popup-agb {
-    position: relative;
-    background: #FFF;
-    padding: 20px;
-    width: auto;
-    max-width: 70%;
-    height: 800px;
-    margin: 20px auto;
-  }
-
-
+/* Liste element Styke */
   a {
       text-decoration: none;
       text-decoration-color: none;
@@ -150,9 +124,9 @@ footer {
 
   /* picture */
 
-.photo-inner img{
-    max-width: 500px;
-}
+.lightbox img{
+    max-width: 100%;
+} */
 
 /* Shauraum Button */
 .shauraum-button {
