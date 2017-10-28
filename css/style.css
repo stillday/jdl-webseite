@@ -151,15 +151,15 @@ footer {
 	-moz-box-shadow: 0px 10px 14px -7px #ffffff;
 	-webkit-box-shadow: 0px 10px 14px -7px #ffffff;
 	box-shadow: 0px 10px 14px -7px #ffffff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33a7ff), color-stop(1, #33c9ff));
-	background:-moz-linear-gradient(top, #33a7ff 5%, #33c9ff 100%);
-	background:-webkit-linear-gradient(top, #33a7ff 5%, #33c9ff 100%);
-	background:-o-linear-gradient(top, #33a7ff 5%, #33c9ff 100%);
-	background:-ms-linear-gradient(top, #33a7ff 5%, #33c9ff 100%);
-	background:linear-gradient(to bottom, #33a7ff 5%, #33c9ff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33a7ff', endColorstr='#33c9ff',GradientType=0);
-	background-color:#33a7ff;
-	border:2px solid #3465a4;	
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #01597A), color-stop(1, #7FDBFE));
+	background:-moz-linear-gradient(top, #01597A 5%, #7FDBFE 100%);
+	background:-webkit-linear-gradient(top, #01597A 5%, #7FDBFE 100%);
+	background:-o-linear-gradient(top, #01597A 5%, #7FDBFE 100%);
+	background:-ms-linear-gradient(top, #01597A 5%, #7FDBFE 100%);
+	background:linear-gradient(to bottom, #01597A 5%, #7FDBFE 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#01597A', endColorstr='#7FDBFE',GradientType=0);
+	background-color:#01597A;
+	/* border:2px solid #3465a4;	 */
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:8px;
@@ -175,14 +175,14 @@ footer {
 	margin: 10px;
 }
 .shauraum-button:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33c9ff), color-stop(1, #33a7ff));
-	background:-moz-linear-gradient(top, #33c9ff 5%, #33a7ff 100%);
-	background:-webkit-linear-gradient(top, #33c9ff 5%, #33a7ff 100%);
-	background:-o-linear-gradient(top, #33c9ff 5%, #33a7ff 100%);
-	background:-ms-linear-gradient(top, #33c9ff 5%, #33a7ff 100%);
-	background:linear-gradient(to bottom, #33c9ff 5%, #33a7ff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33c9ff', endColorstr='#33a7ff',GradientType=0);
-	background-color:#33c9ff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7FDBFE), color-stop(1, #01597A));
+	background:-moz-linear-gradient(top, #7FDBFE 5%, #01597A 100%);
+	background:-webkit-linear-gradient(top, #7FDBFE 5%, #01597A 100%);
+	background:-o-linear-gradient(top, #7FDBFE 5%, #01597A 100%);
+	background:-ms-linear-gradient(top, #7FDBFE 5%, #01597A 100%);
+	background:linear-gradient(to bottom, #7FDBFE 5%, #01597A 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7FDBFE', endColorstr='#01597A',GradientType=0);
+	background-color:#7FDBFE;
 }
 .shauraum-button:active {
 	position:relative;
