@@ -105,32 +105,32 @@ footer {
 		max-width: 90%;
 	}
 	
-.featherlight .featherlight-close-icon {
-	background: transparent;
-	font-size: 25px;
-}
-
-.featherlight .featherlight-close-icon:hover {
-	color: #fff;
-}
-
-/* picture */
-
-.lightbox img{
-	max-width: 90%;
-} */
-
-/* Liste element Styke */
-a {
-	text-decoration: none;
-	text-decoration-color: none;
-	color: #fff;
-}
-
-  a:hover {
-	  color: #3465a4;
-  }
-
+	.featherlight .featherlight-close-icon {
+		background: transparent;
+		font-size: 25px;
+	}
+	
+	.featherlight .featherlight-close-icon:hover {
+		color: #fff;
+	}
+	
+	/* Liste element Styke */
+	a {
+		text-decoration: none;
+		text-decoration-color: none;
+		color: #fff;
+	}
+	
+	a:hover {
+		color: #3465a4;
+	}
+	
+	/* picture */
+	
+	.lightbox img{
+	  max-width: 90%;
+	} */
+	
   ul {
 	padding: 20px;
   }
