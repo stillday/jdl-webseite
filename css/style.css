@@ -230,17 +230,3 @@ footer {
 	top:1px;
 } */
 
-
-@media screen and (max-width: 768px) {
-	.white-popup {
-		max-width: 100%;
-	}
-
-	.white-popup img {
-		max-width: 80%;
-	}
-
-	.white-popup-agb {
-		max-width: 100%;
-	}
-}
