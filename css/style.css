@@ -130,7 +130,7 @@ footer {
 	.lightbox img{
 	  max-width: 90%;
 	} */
-	
+
   ul {
 	padding: 20px;
   }
@@ -159,6 +159,7 @@ footer {
 	background:linear-gradient(to bottom, #33a7ff 5%, #33c9ff 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#33a7ff', endColorstr='#33c9ff',GradientType=0);
 	background-color:#33a7ff;
+	border:2px solid #3465a4;	
 	-moz-border-radius:8px;
 	-webkit-border-radius:8px;
 	border-radius:8px;
@@ -171,6 +172,7 @@ footer {
 	padding:13px 76px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+	margin: 10px;
 }
 .shauraum-button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #33c9ff), color-stop(1, #33a7ff));
