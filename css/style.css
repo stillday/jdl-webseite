@@ -86,15 +86,32 @@ footer {
 .lightbox{
 	display: none;
 }
+
+.featherlight .featherlight-inner {
+	text-align: center;
+	font-size: 32px;
+}
+
+.featherlight .featherlight-inner ul {
+	text-align: center;
+	font-size: 20px;
+	list-style: none;
+}
+
 .featherlight .featherlight-content {
 		color: white;
 		background-color: 	#3399ff;
 		border:2px solid #3465a4;
+		max-width: 90%;
 	}
 
 .featherlight .featherlight-close-icon {
 	background: transparent;
 	font-size: 25px;
+}
+
+.featherlight .featherlight-close-icon:hover {
+	color: #fff;
 }
 
 /* Liste element Styke */
@@ -125,7 +142,7 @@ footer {
   /* picture */
 
 .lightbox img{
-    max-width: 100%;
+    max-width: 90%;
 } */
 
 /* Shauraum Button */
