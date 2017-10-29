@@ -12,7 +12,7 @@ $(function () {
                 }
             },
             open: function () {
-                var object = "<object data=\"{FileName}\" type=\"application/pdf\" width=\"500px\" height=\"300px\">";
+                var object = "<object data=\"{FileName}\" type=\"application/pdf\" width=\"100%\" height=\"300px\">";
                 object += "If you are unable to view file, you can download from <a href = \"{FileName}\">here</a>";
                 object += " or download <a target = \"_blank\" href = \"http://get.adobe.com/reader/\">Adobe PDF Reader</a> to view the file.";
                 object += "</object>";
