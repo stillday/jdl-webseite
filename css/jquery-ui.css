@@ -26,9 +26,15 @@
 /* Component containers
 ----------------------------------*/
 .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable {
+	height: 60% !important;
 	width: 90% !important;
 	left: 5% !important;
-    top: 65% !important;
+	top: 65% !important;
+	border: 2px solid;
 }
 .ui-widget {width: 90%}
 .ui-widget-header { border: 1px solid #3465a4; background: #3399ff}
+
+.ui-dialog .ui-dialog-content {
+	height: 70% !important;
+}
