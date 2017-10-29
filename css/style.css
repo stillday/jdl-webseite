@@ -230,3 +230,17 @@ footer {
 	position:relative;
 	top:1px;
 }
+
+/* AGB Button */
+
+#btnShow {
+	border: none;
+    background-color: transparent;
+	color: #fff;
+	font-size: 15px;
+}
+
+#btnShow:hover {
+	color: #3465a4;
+	cursor: pointer;
+}
