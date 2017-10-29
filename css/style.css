@@ -231,6 +231,11 @@ footer {
 	top:1px;
 }
 
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable.ui-resizable {
+	width: 90%;
+    left: 5%;
+    top: 65%;
+}
 
 /* Shauraum Button */
 /* .shauraum-button {
