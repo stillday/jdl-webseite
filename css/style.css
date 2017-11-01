@@ -139,6 +139,7 @@ footer {
 
   ul:nth-child(2) {
 	  padding: 0 20px 0 20px;
+	  margin-left: 0em !important;
 	  /* list-style-type: circle; */
   }
 
