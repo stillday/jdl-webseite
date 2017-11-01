@@ -28,7 +28,7 @@
      };
      
      function getCarouselImages() {
-         carouselImages = document.getElementsByClassName("slideshow-inner"); // zum einmaligen laden aller Bilder aus der HTML Datei
+         carouselImages = document.getElementsByClassName("slideshow-inner-img"); // zum einmaligen laden aller Bilder aus der HTML Datei
      }
      
      
