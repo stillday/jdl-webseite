@@ -33,6 +33,7 @@
 	border: 2px solid;
 }
 .ui-widget {width: 90%}
+.ui-widget-content a {color: rgb(66, 128, 243)}
 .ui-widget-header { border: 1px solid #3465a4; background: #3399ff}
 
 .ui-dialog .ui-dialog-content {
