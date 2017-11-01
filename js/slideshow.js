@@ -28,7 +28,7 @@
      };
      
      function getCarouselImages() {
-         carouselImages = document.getElementsByClassName("freesliedes"); // zum einmaligen laden aller Bilder aus der HTML Datei
+         carouselImages = document.getElementsByClassName("slideshow-inner"); // zum einmaligen laden aller Bilder aus der HTML Datei
      }
      
      
